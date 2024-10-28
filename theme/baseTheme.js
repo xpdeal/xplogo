@@ -3,6 +3,10 @@ export const baseTheme = {
   icon: {
     size: 24,
   },
+  textSm: {
+    fontSize: '0.56rem',
+    color: 'red',
+  },
   palette: {
     primary: '#212529',
     secondary: '#0033FF',

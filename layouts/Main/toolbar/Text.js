@@ -108,7 +108,7 @@ const Text = () => {
             }}
           >
             <Typography mb={0} className={item} variant="h6" fontWeight="bolder">
-              {item.replace('_', ' ')}
+              {logo.text} <div className="text-sm">by {item}</div>
             </Typography>
           </Card>
         ))}

@@ -6,8 +6,8 @@ const Signature = () => {
       Created by&nbsp;
       <Typography
         component="a"
-        href="https://twitter.com/moiseseduardohp"
-        alt="link to twitter"
+        href="https://logo.xpdeal.com"
+        alt="Logo generator"
         target="_blank"
         rel="noreferrer"
       >

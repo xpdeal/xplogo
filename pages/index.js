@@ -7,6 +7,9 @@ import { getDirection, getFlexDirection } from 'utils/layout';
 import * as icons from '@styled-icons/material';
 import Button from '@uitoolkit/Button';
 import Box from '@uitoolkit/Box';
+import ReactGA from 'react-ga4';
+
+ReactGA.initialize('G-TSLBMRXX6C');
 
 const StyledLogoBox = styled.div`
   display: flex;
