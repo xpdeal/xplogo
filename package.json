@@ -1,0 +1,35 @@
+{
+  "name": "@moiseshp/dummy-logo-maker",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install",
+    "format": "prettier --write",
+    "check-format": "prettier --check ."
+  },
+  "dependencies": {
+    "@next/font": "13.1.1",
+    "@styled-icons/material": "^10.47.0",
+    "dom-to-image": "^2.6.0",
+    "next": "13.1.1",
+    "react": "18.2.0",
+    "react-color-palette": "^6.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.11"
+  },
+  "devDependencies": {
+    "eslint": "8.30.0",
+    "eslint-config-next": "13.1.1",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-config-react-important-stuff": "^3.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.8",
+    "prettier-quick": "0.0.5"
+  }
+}
